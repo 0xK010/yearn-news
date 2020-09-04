@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="static/css/master.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon-16x16.png">
+    <link rel="manifest" href="static/site.webmanifest">
+    <meta charset="utf-8">
+    <meta name=title content="yearn.news"> <meta name=description content="Keeping up with the yearniverse.">
+    <!-- Open Graph / Facebook --> <meta property=og:type content=website> <meta property=og:url content=https://yearn.news/ > <meta property=og:title content="yearn.news"> <meta property=og:description content="Keeping up with the yearniverse."> <meta property=og:image content=static/thumbnail.png>
+    <!-- Twitter --> <meta property=twitter:card content=summary_large_image> <meta property=twitter:url content=https://yearn.news/> <meta property=twitter:title content="yearn.news"> <meta property=twitter:description content="Keeping up with the yearniverse."> <meta property=twitter:image content=static/thumbnail.png>
+    <title>yearn.news</title>
+  </head>
+  <body>
+
+    <div id="wrapper">
+      <div id="price">
+        <p>💰 <b>YFI Price:</b> {{ YFI }}</p>
+      </div>
+      <div id="tvl">
+        <p>🔒 <b>Total Value Locked:</b> {{ TVL }}</p>
+      </div>
+    </div>
+    <hr>
+    <div class="">
+      <h1><img id="align" src="static/yearn-logo-bw.png" alt="yearn logo" width="25px"> Welcome to yearn.news!</h1>
+      <p>Keeping up with yearn can be difficult — here you can find everything you need to get caught up.</p>
+      <p>Never heard of yearn.finance or YFI? <a href="https://youtu.be/3IkRHymMWLM" target="_blank">Start here.</a></p>
+      <p>Note: This site is still under construction!</p>
+    </div>
+
+    <div class="">
+      <h2>Yearn Weekly Newsletter:</h2>
+      <p>📰 Latest Issue: <b><a href=/newsletters/0>Yearn Weekly #0 - September 4, 2020</a></b></p>
+      <p><a href=/archive target="_blank">→ Find past issues here.</a></p>
+    </div>
+
+    <div class="">
+      <h2>Ecosystem at a glance:</h2>
+      <div class="">
+        <h3>Use Yearn</h3>
+        <ul>
+          <li><a href="https://yearn.finance/" target="_blank">yearn.finance</a> - Profit switching lender to optimize lending yields (live)</li>
+          <li><a href="https://ytrade.finance/" target="_blank">ytrade.finance</a>Leveraged stable coin trades (testnet)</li>
+          <li><a href="https://yliquidate.finance/" target="_blank">yliquidate.finance</a> - 0 capital automated liquidations for Aave (testnet)</li>
+          <li><a href="https://yswap.exchange/" target="_blank">yswap.exchange</a> - Single sided automated market maker (live)</li>
+          <li><a href="https://iborrow.finance/" target="_blank">iborrow.finance</a> - Credit delegation vaults for smart contract to smart contract lending (testnet)</li>
+          <li><a href="https://etherscan.io/address/0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e" target="_blank">$YFI</a> governance token</li>
+        </ul>
+      </div>
+      <div class="">
+        <h3>Proposed YIPs</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Title</th>
+              <th>Author</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>45</td>
+              <td>Add a bounty for proposing YIPs that are implemented</td>
+              <td>Sunil Srivatsa</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>Recently Accepted YIPs</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Number</th>
+              <th>Title</th>
+              <th>Author</th>
+            </tr>
+            <tr>
+              <td>34</td>
+              <td>Add Synthetix (SNX) to yVaults</td>
+              <td>Substreight</td>
+            </tr>
+            <tr>
+              <td>39</td>
+              <td>Add Curve sBTC Pool LP-Tokens yVault</td>
+              <td>uhmpeps</td>
+            </tr>
+            <tr>
+              <td>41</td>
+              <td>Temporarily Empower Multisig</td>
+              <td>tracheopteryx, Joe Mahon, franklin501, Michael Anderson, Vance Spencer</td>
+            </tr>
+          </thead>
+        </table>
+        <p><a href="https://yips.yearn.finance/all-yip" target="_blank">→ Find a full list of YIPs here.</a></p>
+      </div>
+    </div>
+  </body>
+</html>
